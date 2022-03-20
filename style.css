@@ -23,6 +23,8 @@ body {
     height: 100vh;
 }
 
+/*Container com imagem do celular*/
+
 .insta-phone {
     display: flex;
     justify-content: center;
@@ -32,4 +34,64 @@ body {
 
 .insta-phone > img {
     height: 50rem;
+}
+
+/*Container com formulários laterais*/
+
+.insta-login-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    width: 50%;
+    min-height: 34rem;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+}
+
+.instagram-logo {
+    padding: 0 25%;
+}
+
+/*Formulários - caixa de cima*/
+
+.login-form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 1.3rem 0;
+}
+
+/*Formulários - caixa do centro*/
+
+.new-account {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 0;
+}
+
+/*Formulários - caixa de baixo*/
+
+.getapp-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+/*Redimensionando imagens*/
+
+.get-app-imgs {
+    display: flex;
+    padding: 1.5rem;    
+}
+
+.get-app-dowload {
+    margin: 0 1.5rem;
+    width: 10rem;
 }
