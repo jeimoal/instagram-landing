@@ -30,7 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-    margin: 0 5px;    
+    margin: 0 5px;
 }
 
 .insta-phone > img {
@@ -46,10 +46,16 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 50%;
-    min-height: 40rem;
+    min-height: 43rem;
+    margin-top: 20px;
 }
 
 /*Container com os formulários. Parte de cima*/
+
+.instagram-logo {
+    width: 13rem;
+    margin-top: 20px;    
+}
 
 .login-form-group {
     display: flex;
@@ -57,8 +63,9 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    height: 25rem;
+    height: 28rem;
     padding: 1.3rem 0;
+    margin-top: 10px;
     background-color: white;
     border: 1px solid lightgray;
 }
@@ -82,14 +89,27 @@ body {
     margin: 0.2rem;
     padding: 0.1rem;
     color: white;
-    background-color: lightblue;
+    background-color: #1271b1;
     border-radius: 3px;
     border-style: none;
-    font-weight: 300;
+    font-weight: 600;
+}
+
+.login-other-group {
+    display: flex;
+    align-items: center;
 }
 
 .login-other {
     color: gray;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.login-oth {    
+    width: 7.8rem;
+    height: 1px;
+    border: 1px solid lightgray;    
 }
 
 .login-facebook {
@@ -104,8 +124,6 @@ body {
     color:#385185;
     font-weight: 600;
 }
-
-
 
 .forget-pass {
     color:#385185;
@@ -131,7 +149,7 @@ body {
 }
 
 .new-user {
-    color: rgb(32, 114, 151);
+    color: #2e86c0;
     font-weight: 600;
 }
 
@@ -146,12 +164,16 @@ body {
 
 /*Redimensionando imagens*/
 
+.get-app {
+    margin-top: 5px;
+}
+
 .get-app-imgs {
-    display: flex;
-    padding: 1.5rem;    
+    display: flex;    
+    padding: 1.5rem;
 }
 
 .get-app-dowload {
-    margin: 0 1.5rem;
+    margin: 0 0.3rem;
     width: 10rem;
 }
