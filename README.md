@@ -1,1 +1,1 @@
-Clone da Landing page do Instagram
+Similar da Landing page do Instagram
