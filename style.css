@@ -207,3 +207,48 @@ body {
 .links-ft, .links-fm, .links-fb {
     margin: 10px;    
 }
+
+/*Media Queries*/
+
+@media (max-width: 1024px) {
+
+    .insta-phone {
+        display: none;
+    }
+
+    .insta-login-container {    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        min-height: 48rem;
+        margin-top: 20px;    
+    }
+
+    .insta-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .insta-login-container {            
+        min-width: 31rem;
+        height: ;
+    }
+        
+}
+
+@media (max-width: 880px) {
+
+    .links-top, .links-mid, .links-bttm {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 
+    }
+
+    .links-top, .links-mid {
+        margin: 1px 0;
+    }
+}
